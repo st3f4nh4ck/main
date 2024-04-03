@@ -1,0 +1,24 @@
+[38;5;246;03m# mtr[39;00m
+[38;5;246;03m# Matt's Traceroute: combined traceroute and ping tool.[39;00m
+[38;5;246;03m# More information: <https://bitwizard.nl/mtr>.[39;00m
+
+[38;5;246;03m# Traceroute to a host and continuously ping all intermediary hops:[39;00m
+[38;5;252mmtr[39m[38;5;252m [39m[38;5;252mhost[39m
+
+[38;5;246;03m# Disable IP address and host name mapping:[39;00m
+[38;5;252mmtr[39m[38;5;252m [39m[38;5;252m-n[39m[38;5;252m [39m[38;5;252mhost[39m
+
+[38;5;246;03m# Generate output after pinging each hop 10 times:[39;00m
+[38;5;252mmtr[39m[38;5;252m [39m[38;5;252m-w[39m[38;5;252m [39m[38;5;252mhost[39m
+
+[38;5;246;03m# Force IP IPv4 or IPV6:[39;00m
+[38;5;252mmtr[39m[38;5;252m [39m[38;5;252m-4[39m[38;5;252m [39m[38;5;252mhost[39m
+
+[38;5;246;03m# Wait for a given time (in seconds) before sending another packet to the same hop:[39;00m
+[38;5;252mmtr[39m[38;5;252m [39m[38;5;252m-i[39m[38;5;252m [39m[38;5;252mseconds[39m[38;5;252m [39m[38;5;252mhost[39m
+
+[38;5;246;03m# Display the Autonomous System Number (ASN) for each hop:[39;00m
+[38;5;252mmtr[39m[38;5;252m [39m[38;5;252m--aslookup[39m[38;5;252m [39m[38;5;252mhostname[39m
+
+#mtr in terminal (host)eg 8.8.8.8
+mtr --curses host

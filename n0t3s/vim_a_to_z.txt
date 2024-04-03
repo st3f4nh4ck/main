@@ -1,0 +1,53 @@
+The following are vim keybindings with logic in normal mode. ESC enters normal mode.
+
+SEARCH
+/ - search for a specific term/word/phrase - N/n - Next result backwards/next result forward - (/ to search)
+F/f - Find backwards/find a character - (;/, - search forwards/backwards)
+
+NAVIGATION
+0 - goes to beginning of line
+^ - goes to the beginning of the first character on a line
+$ - goes to the end of the line
+% - goes to matching character ("",[],{}...etc)
+
+B/b - Backward a big word/backword one word
+W/w - Forward a big word/forward one word
+
+E/e - End of big word/end of word 
+
+h - goes left a character
+j - goes down a line
+k - goes up a line
+l - goes right one charcter
+
+ALPHABET
+A/a - Append at the end of the line/append character at cursor
+B/b - Backward a big word/backword one word
+C/c - Change from here/change in motion
+D/d - Delete from here (DD - delete the line)/delete code enclosed
+E/e - End of big word/end of word 
+F/f - Find backwards/find a character - (;/, - search forwards/backwards)
+G/g - Go to (GG - to the end)/go to (gg - go to the beginning) of the document
+h - goes left a character  
+I/i - I insert at the beginnning of the line/insert from here - changes to insert mode from normal mode
+j - goes down a line       
+k - goes up a line         
+l - goes right one charcter
+m - mark to current register (ma - mark and save to register a - 'a jumps to that marked line)
+N/n - Next result backwards/next result forward - (/ to search)
+O/o - Open a line above/open a line below the cursor
+P/p - Paste above/paste below the line (p - can also represent paragraph in motions)
+q - record to register (rerun the register with @q)
+R/r - Replace all characters/replace one character/ (Ctrl+r - redo)
+S/s - Swicth line/switch character
+T/t - To a character
+U/u - Undo all actions in one line/undo one actions
+V/v - Visual selection - current line (Ctrl+V vertical selection)/visual mode
+W/w - Foreward a big word/foreword one word
+x - delete a character
+Y/y - Yank a line (YY) - y (i/a) (something)
+
+Z/z - fold / (CTrl+z - suspends vim)
+zz = shift current line to middle of screen
+zt = shift current line to top of screen
+zb = shift current line to bottom of screen

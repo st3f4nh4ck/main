@@ -1,0 +1,29 @@
+[48;5;8m[24m cheat.sheets:hexdump [24m[0m
+[38;5;246;03m# side-by-side hexadecimal and ASCII view of the first 128 bytes of a file[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m-C[39m[38;5;252m [39m[38;5;252m-n128[39m[38;5;252m [39m[38;5;252m/etc/passwd[39m
+
+[38;5;246;03m# Convert a binary file to C Array[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m-v[39m[38;5;252m [39m[38;5;252m-e[39m[38;5;252m [39m[38;5;214m'16/1 "0x%02X, "'[39m[38;5;252m [39m[38;5;252m-e[39m[38;5;252m [39m[38;5;214m'"\n"'[39m[38;5;252m [39m[38;5;252mfile.bin[39m[38;5;252m [39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mhexarray.h[39m
+
+[38;5;246;03m# Convert a binary file to Shell code[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m-v[39m[38;5;252m [39m[38;5;252m-e[39m[38;5;252m [39m[38;5;214m'"\\""x" 1/1 "%02x" ""'[39m
+
+[38;5;246;03m# Generate random MAC address[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m-n6[39m[38;5;252m [39m[38;5;252m-e[39m[38;5;252m [39m[38;5;214m'/1 ":%02X"'[39m[38;5;252m [39m[38;5;252m/dev/random[39m[38;5;252m|[39m[38;5;252msed[39m[38;5;252m [39m[38;5;252ms/^://g[39m
+
+[48;5;8m[24m tldr:hexdump [24m[0m
+[38;5;246;03m# hexdump[39;00m
+[38;5;246;03m# An ASCII, decimal, hexadecimal, octal dump.[39;00m
+[38;5;246;03m# More information: <https://manned.org/hexdump>.[39;00m
+
+[38;5;246;03m# Print the hexadecimal representation of a file, replacing duplicate lines by '*':[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252mpath/to/file[39m
+
+[38;5;246;03m# Display the input offset in hexadecimal and its ASCII representation in two columns:[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m-C[39m[38;5;252m [39m[38;5;252mpath/to/file[39m
+
+[38;5;246;03m# Display the hexadecimal representation of a file, but interpret only n bytes of the input:[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m-C[39m[38;5;252m [39m[38;5;252m-nnumber_of_bytes[39m[38;5;252m [39m[38;5;252mpath/to/file[39m
+
+[38;5;246;03m# Don't replace duplicate lines with '*':[39;00m
+[38;5;252mhexdump[39m[38;5;252m [39m[38;5;252m--no-squeezing[39m[38;5;252m [39m[38;5;252mpath/to/file[39m

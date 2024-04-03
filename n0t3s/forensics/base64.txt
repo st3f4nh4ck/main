@@ -1,0 +1,15 @@
+[38;5;246;03m# base64[39;00m
+[38;5;246;03m# Encode or decode file or standard input to/from Base64, to standard output.[39;00m
+[38;5;246;03m# More information: <https://www.gnu.org/software/coreutils/base64>.[39;00m
+
+[38;5;246;03m# Encode the contents of a file as base64 and write the result to `stdout`:[39;00m
+[38;5;252mbase64[39m[38;5;252m [39m[38;5;252mpath/to/file[39m
+
+[38;5;246;03m# Decode the base64 contents of a file and write the result to `stdout`:[39;00m
+[38;5;252mbase64[39m[38;5;252m [39m[38;5;252m--decode[39m[38;5;252m [39m[38;5;252mpath/to/file[39m
+
+[38;5;246;03m# Encode from `stdin`:[39;00m
+[38;5;252msomecommand[39m[38;5;252m [39m[38;5;252m|[39m[38;5;252m [39m[38;5;252mbase64[39m
+
+[38;5;246;03m# Decode from `stdin`:[39;00m
+[38;5;252msomecommand[39m[38;5;252m [39m[38;5;252m|[39m[38;5;252m [39m[38;5;252mbase64[39m[38;5;252m [39m[38;5;252m--decode[39m

@@ -1,0 +1,35 @@
+[48;5;8m[24m cheat.sheets:exec [24m[0m
+[38;5;246;03m# exec[39;00m
+[38;5;246;03m#[39;00m
+[38;5;246;03m# Shell builtin command[39;00m
+[38;5;246;03m# It can start a new process to replace the shell, without a new process[39;00m
+[38;5;246;03m# creation. It can make redirections take effect in the current shell[39;00m
+
+[38;5;246;03m# Redirect all STDOUT from within a script to the given file.[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mfoo.log[39m
+
+[38;5;246;03m# Redirect all of both STDOUT & STDERR from within a script to the given file.[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mfoo.log[39m[38;5;252m [39m[38;5;67m2[39m[38;5;252m>[39m[38;5;252m&[39m[38;5;67m1[39m
+[38;5;246;03m# Or, if on bash(1), this syntax is also viable:[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m&[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mfoo.log[39m
+
+[38;5;246;03m# Copy output to a log file, allowing the outputs to still work as usual.[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m>[39m[38;5;252m  [39m[38;5;252m>[39m[38;5;252m([39m[38;5;252mtee[39m[38;5;252m [39m[38;5;252m-ia[39m[38;5;252m [39m[38;5;252mfoo.log[39m[38;5;252m)[39m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;67m2[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252m>[39m[38;5;252m([39m[38;5;252mtee[39m[38;5;252m [39m[38;5;252m-ia[39m[38;5;252m [39m[38;5;252mfoo.log[39m[38;5;252m [39m[38;5;252m>[39m[38;5;252m&[39m[38;5;67m2[39m[38;5;252m)[39m
+
+[48;5;8m[24m tldr:exec [24m[0m
+[38;5;246;03m# exec[39;00m
+[38;5;246;03m# Replace the current process with another process.[39;00m
+[38;5;246;03m# More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.[39;00m
+
+[38;5;246;03m# Replace with the specified command using the current environment variables:[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;31mcommand[39m[38;5;252m [39m[38;5;252m-with[39m[38;5;252m [39m[38;5;252m-flags[39m
+
+[38;5;246;03m# Replace with the specified command, clearing environment variables:[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m-c[39m[38;5;252m [39m[38;5;31mcommand[39m[38;5;252m [39m[38;5;252m-with[39m[38;5;252m [39m[38;5;252m-flags[39m
+
+[38;5;246;03m# Replace with the specified command and login using the default shell:[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m-l[39m[38;5;252m [39m[38;5;31mcommand[39m[38;5;252m [39m[38;5;252m-with[39m[38;5;252m [39m[38;5;252m-flags[39m
+
+[38;5;246;03m# Replace with the specified command and change the process name:[39;00m
+[38;5;31mexec[39m[38;5;252m [39m[38;5;252m-a[39m[38;5;252m [39m[38;5;252mprocess_name[39m[38;5;252m [39m[38;5;31mcommand[39m[38;5;252m [39m[38;5;252m-with[39m[38;5;252m [39m[38;5;252m-flags[39m

@@ -1,0 +1,290 @@
+acccheck - A tool used for testing the security of Windows network shares.
+
+ace-voip - A tool used for analyzing and exploiting VoIP networks.
+
+Aircrack-ng - A tool used for analyzing and cracking wireless networks.
+
+Amass - A tool used for mapping external networks and discovering subdomains.
+
+Apache JMeter - A tool used for load testing and performance measurement of web applications.
+
+apktool - A tool used for reverse engineering Android apps.
+
+Armitage - A graphical interface for Metasploit.
+
+asleap - A tool used for offline cracking of Cisco’s LEAP protocol.
+
+automater - A tool used for analyzing URLs and IP addresses for threat intelligence.
+
+autopsy - A digital forensics platform used for analyzing and investigating hard drives and mobile devices.
+
+bettercap - A tool used for network monitoring, packet manipulation, and man-in-the-middle attacks.
+
+binwalk - A tool used for analyzing and extracting firmware images and other binary files.
+
+BlueMaho - A tool used for Bluetooth penetration testing.
+
+Bluepot - A Bluetooth honeypot.
+
+bluesnarfer - A tool used for Bluetooth information gathering and exploitation.
+
+Burp Suite - A tool used for web application security testing.
+
+CeWL - A tool used for generating custom wordlists by spidering a website.
+
+CherryTree - A note-taking application with support for rich text formatting.
+
+chntpw - A tool used for resetting Windows passwords.
+
+cisco-auditing-tool - A tool used for auditing Cisco devices.
+
+cisco-global-exploiter - A tool used for exploiting vulnerabilities in Cisco devices.
+
+cisco-ocs - A tool used for exploiting Cisco’s OCS service.
+
+cisco-torch - A tool used for discovering and exploiting vulnerabilities in Cisco devices.
+
+Commix - A tool used for testing command injection vulnerabilities in web applications.
+
+cowpatty - A tool used for cracking WPA-PSK keys.
+
+crackle - A tool used for exploiting Bluetooth LE encryption.
+
+crunch - A tool used for generating custom wordlists.
+
+Cryptcat - A tool used for encrypting and transmitting data over a network.
+
+cutycapt - A tool used for capturing screenshots of websites.
+
+darkstat - A network traffic analyzer.
+
+davtest - A tool used for testing WebDAV-enabled servers.
+
+DB Browser for SQLite - A graphical user interface for SQLite databases.
+
+DBeaver - A database management tool with support for many different database systems.
+
+dc3dd - A tool used for creating and analyzing disk images.
+
+dcfldd - A tool used for creating and analyzing disk images.
+
+ddrescue - A data recovery tool used for rescuing data from damaged drives.
+
+dex2jar - A tool used for reverse engineering Android apps.
+
+dirb - A tool used for web content discovery.
+
+dirbuster - A tool used for web content discovery.
+
+Dislocker - A tool used for accessing BitLocker-encrypted volumes.
+
+dmitry - A tool used for gathering information about IP addresses, domains, and hosts.
+
+dns2tcp - A tool used for tunneling TCP connections over DNS.
+
+dnsenum - A tool used for gathering information about DNS servers.
+
+dnsmap - A tool used for subdomain mapping.
+
+dnsmasq - A lightweight DNS server and DHCP server.
+
+dnstracer - A tool used for tracing the path of a DNS query.
+
+dnswalk - A tool used for validating DNS zone files.
+
+dos2unix - A tool used for converting text files between Windows and Unix formats.
+
+Dradis - A tool used for managing information during a penetration testing engagement.
+
+dsniff - A tool used for network monitoring and password sniffing.
+
+dumpzilla - A tool used for extracting data from Firefox and Chrome web browsers.
+
+enum4linux - A tool used for enumerating information about Windows and Samba hosts.
+
+ettercap - A tool used for network monitoring and man-in-the-middle attacks.
+
+exploitdb - A database of exploits and vulnerabilities.
+
+fcrackzip - A tool used for cracking password-protected ZIP files.
+
+fern-wifi-cracker - A tool used for wireless network penetration testing.
+
+fierce - A tool used for DNS reconnaissance.
+
+Firebug - A Firefox extension used for web development and debugging.
+
+foremost - A tool used for recovering files from disk images.
+
+fragroute - A tool used for testing network intrusion detection systems.
+
+fragrouter - A tool used for testing network intrusion detection systems.
+
+Galleta - A tool used for analyzing and recovering Firefox and Chrome web browser cookies.
+
+gdb - A tool used for debugging programs.
+
+Ghost Phisher - A tool used for phishing and social engineering attacks.
+
+GISKismet - A tool used for mapping and analyzing wireless networks.
+
+GNS3 - A graphical network simulator.
+
+goofile - A tool used for searching for files in Google.
+
+Grabber - A tool used for web application scanning and information gathering.
+
+hashcat - A tool used for password cracking.
+
+hashdeep - A tool used for generating and verifying checksums.
+
+Hexinject - A tool used for packet injection and sniffing.
+
+hping3 - A tool used for network testing, scanning, and attack.
+
+httrack - A tool used for copying websites.
+
+Hydra - A tool used for password cracking.
+
+iaxflood - A tool used for testing the security of VoIP networks.
+
+ike-scan - A tool used for discovering and fingerprinting IPsec VPN servers.
+
+InSpy - A tool used for gathering information about LinkedIn users and companies.
+
+Intruder - A tool used for web application scanning and vulnerability testing.
+
+iodine - A tool used for tunneling IP over DNS.
+
+iotop - A tool used for monitoring I/O usage on Linux.
+
+ipcalc - A tool used for calculating IP network addresses.
+
+John the Ripper - A tool used for password cracking.
+
+joomscan - A tool used for scanning and exploiting Joomla websites.
+
+jSQL - A tool used for SQL injection testing.
+
+KeepNote - A note-taking application with support for rich text formatting.
+
+Kismet - A tool used for wireless network monitoring and analysis.
+
+knockpy - A tool used for subdomain discovery.
+
+L0phtCrack - A tool used for password cracking.
+
+laudanum - A collection of web application exploits.
+
+ldapenum - A tool used for enumerating information about LDAP servers.
+
+Linux Exploit Suggester - A tool used for identifying potential Linux vulnerabilities.
+
+Maltego - A graphical tool used for data mining and information gathering.
+
+Maskprocessor - A tool used for generating custom wordlists.
+
+masscan - A tool used for high-speed network scanning.
+
+Medusa - A tool used for password cracking.
+
+Metasploit Framework - A tool used for exploiting vulnerabilities in systems.
+
+Mimikatz - A tool used for extracting plaintext passwords and hashes from Windows systems.
+
+mitmproxy - A tool used for intercepting and modifying network traffic.
+
+nbtscan - A tool used for discovering NetBIOS names on a network.
+
+ncat - A tool used for reading and writing data across networks.
+
+Netcat - A tool used for reading and writing data across networks.
+
+Netdiscover - A tool used for discovering hosts on a network.
+
+Nikto - A tool used for web server scanning and vulnerability testing.
+
+nmap - A tool used for network exploration and vulnerability scanning.
+
+Ntop - A tool used for network traffic analysis and monitoring.
+
+OpenVAS - A vulnerability scanner and management system.
+
+OSSEC - A host-based intrusion detection system.
+
+OWASP ZAP - A web application security scanner and testing tool.
+
+Paros Proxy - A web application security scanner and proxy.
+
+Pass-the-Hash Toolkit - A tool used for lateral movement in Windows systems.
+
+Patator - A tool used for brute-forcing passwords.
+
+PCMan File Manager Backdoor - A backdoor found in the PCMan File Manager.
+
+Pdfcrack - A tool used for cracking password-protected PDF files.
+
+Penetration Testing Framework (PTF) - A framework for creating and managing penetration testing environments.
+
+pipal - A tool used for password analysis and statistics.
+
+PixieWPS - A tool used for exploiting WPS vulnerabilities in wireless networks.
+
+PowerSploit - A collection of PowerShell scripts for post-exploitation tasks.
+
+Proxychains - A tool used for routing connections through proxy servers.
+
+Proxytunnel - A tool used for creating and tunneling data through HTTP and HTTPS proxies.
+
+Pupy - A tool used for remote administration and post-exploitation of Windows systems.
+
+Pyrit - A tool used for cracking WPA/WPA2-PSK passwords.
+
+Recon-ng - A tool used for reconnaissance and information gathering.
+
+Red Hawk - A tool used for web application scanning and information gathering.
+
+RegRipper - A tool used for extracting information from Windows Registry files.
+
+Responder - A tool used for exploiting LLMNR and NBT-NS spoofing vulnerabilities.
+
+Rinetd - A tool used for redirecting TCP connections.
+
+Routersploit - A framework for exploiting router vulnerabilities.
+
+Royal TS - A tool used for remote desktop management.
+
+sakis3g - A tool used for connecting to 3G networks.
+
+sbd - A tool used for creating reverse TCP shells.
+
+Scapy - A tool used for packet manipulation and network exploration.
+
+SecLists - A collection of various security-related lists.
+
+SET - A tool used for social engineering attacks.
+
+Shodan - A search engine for internet-connected devices.
+
+Skipfish - A web application security scanner.
+
+SniffJoke - A tool used for packet manipulation and injection.
+
+Snort - A network intrusion detection system.
+
+Socat - A tool used for establishing bidirectional data transfer between two endpoints.
+
+Sqlmap - A tool used for SQL injection testing and exploitation.
+
+SSLsplit - A tool used for intercepting SSL/TLS encrypted connections.
+
+theHarvester - A tool used for email and domain reconnaissance.
+
+Tor - A tool used for anonymous browsing and communication.
+
+Unicornscan - A tool used for network scanning.
+
+Uniscan - A tool used for web application vulnerability scanning.
+
+Vega - A tool used for web application security testing
+End
