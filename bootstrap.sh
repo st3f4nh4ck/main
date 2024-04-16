@@ -1,8 +1,9 @@
 #!/bin/bash
+sudo apt install curl -y && bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
 # Configuration
 CONFIG_DIR="$HOME/.config/my-config"
-APT_PACKAGES="lynis gawk curl wget figlet git alacritty powerline* nala neofetch net-tools cpufetch btop gnome-shell-extension-manager flatpak gnome-software-plugin-flatpak gh git lolcat fd-find sd npm vlc build-essential procps file net-tools gpaste-2 font-manager gdebi ufw gawk cmake plocate bat most"
+APT_PACKAGES="lynis gawk wget figlet git alacritty powerline* nala neofetch net-tools cpufetch btop gnome-shell-extension-manager flatpak gnome-software-plugin-flatpak gh git lolcat fd-find sd npm vlc build-essential procps file net-tools gpaste-2 font-manager gdebi ufw gawk cmake plocate bat most"
 HOMEBREW_PACKAGES="gcc dust dog eza zellij neovim xh"
 
 # Function to install apt packages
@@ -87,7 +88,6 @@ remove_bloat() {
 # Perform installations
 remove_bloat
 install_apt_packages
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 install_homebrew_packages
 install_ble_sh
 install_flatpak
