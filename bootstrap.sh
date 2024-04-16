@@ -13,13 +13,9 @@ install_apt_packages() {
 
 # Function to install Homebrew packages
 install_homebrew_packages() {
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >>$HOME/.bashrc
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
+	echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >>$HOME/.bashrc;
 	brew install $HOMEBREW_PACKAGES
-}
-# Function to install oh-my-bash
-install_oh_my_bash() {
-	bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 }
 
 # Function to install ble.sh
@@ -91,7 +87,7 @@ remove_bloat() {
 # Perform installations
 remove_bloat
 install_apt_packages
-install_oh_my_bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 install_homebrew_packages
 install_ble_sh
 install_flatpak
