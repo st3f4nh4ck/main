@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt install curl git wget -y && bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-
+./bootstrap.sh
 # Configuration
 CONFIG_DIR="$HOME/.config/my-config"
 APT_PACKAGES="lynis gawk figlet alacritty powerline* nala neofetch net-tools cpufetch btop gnome-shell-extension-manager flatpak gnome-software-plugin-flatpak gh git lolcat fd-find sd npm vlc build-essential procps file net-tools gpaste-2 font-manager gdebi ufw gawk cmake plocate bat most"
