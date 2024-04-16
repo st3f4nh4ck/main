@@ -2,7 +2,7 @@
 
 # Configuration
 CONFIG_DIR="$HOME/.config/my-config"
-APT_PACKAGES="lynis gawk curl wget figlet git alacritty powerline* nala neofetch net-tools forensics-all cpufetch btop gnome-shell-extension-manager flatpak gnome-software-plugin-flatpak gh git lolcat fd-find sd npm vlc build-essential procps file net-tools httpie mitmproxy gpaste-2 font-manager gdebi ufw gawk cmake plocate bat most"
+APT_PACKAGES="lynis gawk curl wget figlet git alacritty powerline* nala neofetch net-tools cpufetch btop gnome-shell-extension-manager flatpak gnome-software-plugin-flatpak gh git lolcat fd-find sd npm vlc build-essential procps file net-tools gpaste-2 font-manager gdebi ufw gawk cmake plocate bat most"
 HOMEBREW_PACKAGES="gcc dust dog eza zellij neovim xh"
 
 # Function to install apt packages
@@ -97,6 +97,9 @@ install_virtualbox
 install_vbox_guest_extension
 install_cht_sh
 install_themes
+
+wget https://github.com/st3f4nh4ck/main/blob/main/4ut0m4t10n/host.aliases.sh > $HOME/.oh-my-bash/custom/aliases/
+rm -rf $HOME/.oh-my-bash/aliases/ls.aliases.sh
 
 echo 'export PATH=$PATH:/usr/sbin:/usr/local/bin:/opt' >>$HOME/.bashrc
 
