@@ -107,4 +107,4 @@ echo 'export PATH=$PATH:/usr/sbin:/usr/local/bin:/opt' >>$HOME/.bashrc
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 sudo nala upgrade
-echo "Setup completed."
+figlet -t "Setup completed."
