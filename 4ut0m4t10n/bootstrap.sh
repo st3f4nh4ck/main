@@ -3,7 +3,7 @@
 # Configuration
 CONFIG_DIR="$HOME/.config/my-config"
 APT_PACKAGES="lynis gawk curl wget git alacritty powerline* nala neofetch net-tools forensics-all cpufetch btop gnome-shell-extension-manager flatpak gnome-software-plugin-flatpak gh git lolcat fd-find sd npm vlc build-essential procps file net-tools httpie mitmproxy gpaste-2 font-manager gdebi ufw gawk cmake plocate bat most"
-HOMEBREW_PACKAGES="gcc dust dog eza zellij neovim xh"
+HOMEBREW_PACKAGES="gcc dust dog eza zellij neovim xh yazi ffmpegthumbnailer unar jq poppler fd ripgrep zoxide"
 
 # Function to install apt packages
 install_apt_packages() {
